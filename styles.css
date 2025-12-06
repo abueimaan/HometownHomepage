@@ -28,7 +28,7 @@ h2 {
   background-image: url(images/tetouan.jpg);
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 450px;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@ h2 {
 
 #h1 {
   background: #457b9d99;
+  margin-top: 100px;
   margin-bottom: 0;
 }
 
@@ -56,12 +57,16 @@ h2 {
 }
 
 #top {
-  margin: 10px auto 5px;
+  margin: 10px auto 35px;
   padding: 0 0 10px 0;
 }
 .activities {
   background: #f1faee;
   padding: 10px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #activities {
@@ -105,7 +110,7 @@ h2 {
   background-size: cover;
   background-position: center;
   border-radius: 50px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 /*display: flex; to arrange horizontally {html arranges as block}
@@ -117,12 +122,19 @@ h2 {
 .visit {
   width: 150px;
   font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#visitTitle {
+  margin-top: 15px;
 }
 
 .guideCard {
   background: #a8dadc;
   width: 400px;
-  margin: 20px auto 20px;
+  margin: 55px auto;
   border-bottom: 5px solid #457b9d;
 }
 
