@@ -1,0 +1,154 @@
+/* color palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+  font-family: "Cabin", sans-serif;
+  color: #1d3557;
+  margin: 0px;
+  text-align: center;
+}
+
+/* div {
+  border: 1px solid blue;
+} */
+
+h1,
+h2 {
+  color: #f1faee;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.hero {
+  background-image: url(images/tetouan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#h1 {
+  background: #457b9d99;
+  margin-bottom: 0;
+}
+
+#h1:hover {
+  background: #457b9d;
+}
+
+#h2 {
+  width: 600px;
+  background: #1d355799;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#h2:hover {
+  background: #1d3557;
+}
+
+#top {
+  margin: 10px auto 5px;
+  padding: 0 0 10px 0;
+}
+.activities {
+  background: #f1faee;
+  padding: 10px;
+}
+
+#activities {
+  display: flex;
+  justify-content: space-around;
+}
+
+#blueCity {
+  background-image: url(images/blueCity.webp);
+}
+
+#blueCity:hover {
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#oldMadina {
+  background-image: url(images/madina.webp);
+}
+
+#oldMadina:hover {
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#greenMountain {
+  background-image: url(images/mountains.webp);
+}
+
+#greenMountain:hover {
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.location {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+/*display: flex; to arrange horizontally {html arranges as block}
+  flex-direction: row; default
+  (1)justify-content: start/center/end; along the main axis
+  (2)align-items: start/center/end; along the cross axis 
+  changing dierction: row to column; switches the axis,ie switch (1+2) */
+
+.visit {
+  width: 150px;
+  font-size: x-small;
+}
+
+.guideCard {
+  background: #a8dadc;
+  width: 400px;
+  margin: 20px auto 20px;
+  border-bottom: 5px solid #457b9d;
+}
+
+#guide {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  width: 250px;
+  padding-right: 20px;
+}
+
+#lived {
+  padding: 0 5px;
+}
+
+#profile {
+  width: 150px;
+  height: 230px;
+  background-image: url(images/guide.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#profile:hover {
+  background-image: url(images/guideProfile.jpg);
+}
